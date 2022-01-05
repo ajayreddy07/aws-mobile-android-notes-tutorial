@@ -7,5 +7,5 @@ phases:
       - ./gradlew assembleDebug
 artifacts:
   files:
-     - '/**/*'
+     - '**/*'
   discard-paths: yes
