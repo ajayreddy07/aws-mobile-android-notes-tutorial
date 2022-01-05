@@ -6,5 +6,5 @@ phases:
       - ./gradlew assembleDebug
 artifacts:
   files:
-     - '**/*'
+     - '**/*.apk'
   discard-paths: yes
