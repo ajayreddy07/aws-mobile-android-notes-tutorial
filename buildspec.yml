@@ -3,8 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
+      - chmod +x ./gradlew
       - ./gradlew assembleDebug
 artifacts:
   files:
-     - '**/*.apk'
+     - 'buildspec.yml'
   discard-paths: yes
